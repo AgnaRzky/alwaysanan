@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kreator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        
+        .profil {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .foto-profil {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px auto;
+        }
+        
+        .nama {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .deskripsi {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .sosial-media {
+            margin-top: 20px;
+        }
+        
+        .sosial-media a {
+            margin-right: 10px;
+        }
+        
+        .sosial-media img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profil">
+        <img class="foto-profil" src="foto-profil.jpg" alt="Foto Profil">
+        <h2 class="nama">ALWAYS ANAN</h2>
+        <p class="deskripsi">Saya Anan, seorang Konten Kreator yang berpassion dalam membuat konten edukatif dan informatif tentang teknologi, terutama dalam hal pengembangan bot WhatsApp.</p>
+        <p class="deskripsi>">Di channel YouTube, saya sering membagikan script bot WhatsApp secara gratis, sehingga Anda dapat membuat bot WhatsApp sendiri dengan mudah. Saya juga berbagi tips dan trik tentang cara membuat bot WhatsApp yang efektif dan efisien.</p>
+        <p class="deskripsi>">Tujuan saya adalah membantu Anda memahami teknologi dan mengembangkan kemampuan Anda dalam membuat bot WhatsApp. Dengan demikian, Anda dapat meningkatkan produktivitas dan efisiensi dalam bisnis atau kegiatan Anda.</p>
+        <p class="deskripsi>">Jangan lupa untuk subscribe channel YouTube saya dan tekan tombol notifikasi untuk mendapatkan update konten terbaru dari saya. Terima kasih atas perhatian Anda, dan saya berharap Anda dapat menikmati konten yang saya bagikan!</p>
+        <p class="deskripsi>">SOSIAL MEDIA:</p>
+        <div class="sosial-media">
+            <a href="https://www.youtube.com/@alwaysanan" onclick="if (typeof android !== 'undefined') { window.open('vnd.youtube://', '_system'); return false; } else if (typeof ios !== 'undefined') { window.open('youtube://', '_system'); return false; }"> <img src="youtube.png" alt="YouTube"></a>
+            <a href="https://t.me/ananoffc" onclick="if (typeof android !== 'undefined') { window.open('tg://', '_system'); return false; } else if (typeof ios !== 'undefined') { window.open('telegram://', '_system'); return false; }"> <img src="telegram.png" alt="Telegram"></a>
+            <a href="https://whatsapp.com/channel/0029Vb1QmfwFcowBSFMgLU32" onclick="if (typeof android !== 'undefined') { window.open('whatsapp://', '_system'); return false; } else if (typeof ios !== 'undefined') { window.open('whatsapp://', '_system'); return false; }"> <img src="whatsapp.png" alt="Saluran WhatsApp">
+</a>
+        </div>
+    </div>
+</body>
+</html>
